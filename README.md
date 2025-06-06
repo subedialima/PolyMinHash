@@ -75,6 +75,6 @@ Due to size constraints, input datasets are not hosted in this repository. Publi
 
 ## 📬 Contact
 
-For questions or collaborations, contact: [asbmr@mst.edu](mailto:asbmr@mst.edu)
+For questions or collaborations, contact: [asbmr@mst.edu](mailto:asbmr@mst.edu)  [subedialima0@gmail.com](mailto:subedialima0@gmail.com)
 
 ---
