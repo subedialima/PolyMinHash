@@ -26,12 +26,9 @@ PolyMinHash/
 │   ├── main.cpp         # Entry point
 │   ├── mpi_gis.cpp      # MPI parallelism
 │   ├── geoutil.cpp      # Geometry utilities
-│   └── ...
+│   └── query.cpp        # Minhashing
 ├── data/                # Input WKT files and output CSVs (not included)
-├── scripts/             # (Optional) Python scripts for visualization
 ├── README.md            # This file
-└── makefile             # Compilation instructions
-```
 
 ---
 
@@ -59,21 +56,12 @@ make
 Example command:
 
 ```bash
-mpirun -np 4 ./main -i data/sports.wkt -q data/query_sports.wkt -o data/output.csv
+mpirun -n 100 ./spjoin data/input_polygon.wkt data/query_polygon.wkt 10
+
 ```
 
 ---
 
-## 📊 Visualization (Optional)
-
-To visualize polygon inputs or search results:
-
-```bash
-cd scripts
-python visualize_results.py
-```
-
----
 
 ## 📦 Datasets
 
@@ -87,7 +75,3 @@ Due to size constraints, input datasets are not hosted in this repository. Publi
 For questions or collaborations, contact: [subedial@mst.edu](mailto:subedial@mst.edu)
 
 ---
-
-## ✅ License
-
-TBD (add MIT, Apache 2.0, or your preferred license).
