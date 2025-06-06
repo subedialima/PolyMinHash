@@ -13,9 +13,6 @@ PolyMinHash uses rejection sampling to generate hash values based on polygon are
 * **Hashing Method**: Rejection sampling based on 2D point-in-polygon tests.
 * **Similarity Metric**: Jaccard distance based on geometric intersection area.
 * **Pruning**: Achieves up to 98% pruning while maintaining recall of 69% to 97%.
-* **Speedup**: Provides 2x to 12x speedup over brute-force.
-* **Compression**: Signature size is only 0.23% to 8.09% of polygon memory.
-
 ---
 
 ## 📁 Repository Structure
