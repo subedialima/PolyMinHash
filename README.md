@@ -81,20 +81,6 @@ Due to size constraints, input datasets are not hosted in this repository. Publi
 
 ---
 
-## 📄 Citation
-
-If you use PolyMinHash in your research or applications, please cite our paper:
-
-```
-@inproceedings{subedi2025polyminhash,
-  title     = {PolyMinHash: Efficient Area-Based MinHashing of Polygons},
-  author    = {Alima Subedi and Satish Puri},
-  booktitle = {Proceedings of ...},
-  year      = {2025}
-}
-```
-
----
 
 ## 📬 Contact
 
