@@ -27,6 +27,9 @@ PolyMinHash/
 │   ├── mpi_gis.cpp      # MPI parallelism
 │   ├── geoutil.cpp      # Geometry utilities
 │   └── query.cpp        # Minhashing
+│   └── brute_force.cpp  # Brute-Force implementation(exact method)
+│   └── util.h.cpp       # Basic utilities (other)
+│   └── parse_geodata.cpp# read wkt files
 ├── data/                # Input WKT files and output CSVs (not included)
 ├── README.md            # This file
 
