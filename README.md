@@ -65,8 +65,8 @@ mpirun -n 100 ./spjoin data/input_polygon.wkt data/query_polygon.wkt 10
 
 ## 📦 Datasets
 
-Due to size constraints, input datasets are not hosted in this repository. Publicly available WKT-format polygon datasets (e.g., from the UCR STAR repository) should be placed in the `data/` directory. Subset of the data used in this project is available on OneDrive as the **data**:  
-[PolyMinHash Sample Dataset](https://mailmissouri-my.sharepoint.com/:u:/g/personal/asbmr_umsystem_edu/EdbgcUFAWNpLotYRosDl7hwB4to4NEQFshT7kzPV6XhJcw?e=tPPSfC)
+Due to size constraints, input datasets are not hosted in this repository. Publicly available WKT-format polygon datasets (e.g., from the UCR STAR repository) should be placed in the `data/` directory. Subset of the data used in this project is available on OneDrive as **data**:  
+[data](https://mailmissouri-my.sharepoint.com/:u:/g/personal/asbmr_umsystem_edu/EdbgcUFAWNpLotYRosDl7hwB4to4NEQFshT7kzPV6XhJcw?e=tPPSfC)
 
 ---
 
