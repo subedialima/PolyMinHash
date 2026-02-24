@@ -436,8 +436,6 @@ vector<double> sketch(GEOSContextHandle_t ctx,
            
             //double ratio = fillRatio(ctx, grid->at(r).at(c), g);
            result.push_back(fillRatio(ctx, grid->at(r).at(c), g));
-         //result.push_back(sqrt(ratio));
-           // result.push_back(pow(ratio, 0.5));
                 
                 
             }
